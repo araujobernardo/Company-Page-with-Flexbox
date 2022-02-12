@@ -1,0 +1,122 @@
+html {
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    color: gainsboro;
+    background-color: rgb(49, 48, 48);
+    font-size: 22px;
+    text-align: center;
+}
+
+a {
+    color: gainsboro;
+  }
+  
+  h2,
+  h3,
+  h4,
+  p {
+    margin: 0;
+    padding: 10px;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10%;
+  }
+  
+  .navbar p {
+    display: inline-block;
+    padding: 10px 10px;
+  }
+  
+  .main {
+    padding-top: 35px;
+    opacity: 0.9;
+  }
+
+  .mission {
+    display: flex;
+    height: 500px;
+    background-image: url("img/banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 35px;
+  }
+  
+  .mission .content {
+    margin: auto;
+    background-color: black;
+    width: 100%;
+    opacity: 70%;
+  }
+  
+  .destinations {
+    min-height: 500px;
+    margin: auto;
+    padding-top: 70px;
+  }
+
+
+.places {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .place {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .place img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    padding: 10px;
+    height: auto;
+  }
+  
+  .place span {
+    padding: 5px;
+    min-width: 240px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .reviews {
+    background-image: url("img/review.jpg");
+    padding-top: 70px;
+    padding-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .review {
+    padding: 10px;
+    color: gainsboro;
+    flex-basis: 280px;
+  }
+  
+  .review img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: auto;
+  }
+  
+  .contact,
+  .copyright {
+    padding-top: 20px;
+  }
+  
